@@ -13,8 +13,7 @@ class LinkedList : public List<T> {
             T value;
             Node* next;
 
-            Node(T v = T(), Node* n = nullptr)
-            : value(v), next(n) { }
+            Node(T v = T(), Node* n = nullptr) : value(v), next(n) { }
         };
 
         // a pointer to the front of the list
